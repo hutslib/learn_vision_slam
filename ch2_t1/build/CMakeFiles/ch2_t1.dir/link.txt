@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -O3 -DNDEBUG   CMakeFiles/ch2_t1.dir/ch2_t1.cpp.o  -o ch2_t1 -rdynamic 
