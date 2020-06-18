@@ -1,0 +1,16 @@
+编译出release版本的6个可执行文件，1库文件
+根据以上CMakeLists.txt的描述，ORBSLAM2编译将生成libORB_SLAM2.so动态链接库
+根据以上部分CMakeLists.txt的描述，ORBSLAM2还将生成rgbd_tum, stereo_kitti, stereo_euroc, mono_tum, mono_kitti,mono_euroc共6个可执行的demo程序
+include目录下面包含头文件
+src目录下面包含源文件
+Examples目录下面应用实例的可执行文件，包含了针对不同数据集的运行文件，：
+基于TUM数据集的深度相机运行文件
+基于TUM数据集的单目相机运行例程
+基于EuRoc数据集的单目相机运行例程
+基于EuRoc数据集的双目相机运行例程
+基于KITTI数据集的单目相机运行例程
+基于KITTI数据集的双目相机运行例程
+ORBSLAM2中的可执行文件链接了五个第三方库：OpenCV、EIGEN3、Pangolin、DBoW2、g2o和一个生成库libORB_SLAM2.so。
+将myslam.cpp和myvideo.cpp放到/home/hts/catkin_ws/src/ORB_SLAM2/Examples/Monocular目录下修改CMakeLists.txt
+并修改myslam.cpp和myvideo.cpp中的相关路径
+体会：对于白色墙面，白色的物体提取到的orb特征很好，几乎没有。
