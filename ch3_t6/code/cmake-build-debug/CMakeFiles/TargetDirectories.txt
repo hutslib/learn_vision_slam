@@ -1,3 +1,0 @@
-/home/hts/01Vision_slam/ch3_t6/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hts/01Vision_slam/ch3_t6/code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hts/01Vision_slam/ch3_t6/code/cmake-build-debug/CMakeFiles/trajectory_error.dir

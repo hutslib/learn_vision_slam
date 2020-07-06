@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hts/01Vision_slam/ch4_t1/code/undistort_image.cpp" "/home/hts/01Vision_slam/ch4_t1/code/cmake-build-debug/CMakeFiles/undistortImage.dir/undistort_image.o"
+  "/home/hts/01Vision_slam/ch2_t2/ch2_t2.cpp" "/home/hts/01Vision_slam/ch2_t2/cmake-build-debug/CMakeFiles/ch2_t2.dir/ch2_t2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

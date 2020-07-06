@@ -48,10 +48,10 @@ RM = /home/hts/software/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hts/01Vision_slam/ch4_t1/code
+CMAKE_SOURCE_DIR = /home/hts/01Vision_slam/ch2_t2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hts/01Vision_slam/ch4_t1/code/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hts/01Vision_slam/ch2_t2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hts/01Vision_slam/ch4_t1/code/cmake-build-debug/CMakeFiles /home/hts/01Vision_slam/ch4_t1/code/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hts/01Vision_slam/ch2_t2/cmake-build-debug/CMakeFiles /home/hts/01Vision_slam/ch2_t2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hts/01Vision_slam/ch4_t1/code/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hts/01Vision_slam/ch2_t2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,32 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named undistortImage
+# Target rules for targets named ch2_t2
 
 # Build rule for target.
-undistortImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 undistortImage
-.PHONY : undistortImage
+ch2_t2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch2_t2
+.PHONY : ch2_t2
 
 # fast build rule for target.
-undistortImage/fast:
-	$(MAKE) -f CMakeFiles/undistortImage.dir/build.make CMakeFiles/undistortImage.dir/build
-.PHONY : undistortImage/fast
+ch2_t2/fast:
+	$(MAKE) -f CMakeFiles/ch2_t2.dir/build.make CMakeFiles/ch2_t2.dir/build
+.PHONY : ch2_t2/fast
+
+ch2_t2.o: ch2_t2.cpp.o
+
+.PHONY : ch2_t2.o
 
 # target to build an object file
-undistort_image.o:
-	$(MAKE) -f CMakeFiles/undistortImage.dir/build.make CMakeFiles/undistortImage.dir/undistort_image.o
-.PHONY : undistort_image.o
+ch2_t2.cpp.o:
+	$(MAKE) -f CMakeFiles/ch2_t2.dir/build.make CMakeFiles/ch2_t2.dir/ch2_t2.cpp.o
+.PHONY : ch2_t2.cpp.o
+
+ch2_t2.i: ch2_t2.cpp.i
+
+.PHONY : ch2_t2.i
 
 # target to preprocess a source file
-undistort_image.i:
-	$(MAKE) -f CMakeFiles/undistortImage.dir/build.make CMakeFiles/undistortImage.dir/undistort_image.i
-.PHONY : undistort_image.i
+ch2_t2.cpp.i:
+	$(MAKE) -f CMakeFiles/ch2_t2.dir/build.make CMakeFiles/ch2_t2.dir/ch2_t2.cpp.i
+.PHONY : ch2_t2.cpp.i
+
+ch2_t2.s: ch2_t2.cpp.s
+
+.PHONY : ch2_t2.s
 
 # target to generate assembly for a file
-undistort_image.s:
-	$(MAKE) -f CMakeFiles/undistortImage.dir/build.make CMakeFiles/undistortImage.dir/undistort_image.s
-.PHONY : undistort_image.s
+ch2_t2.cpp.s:
+	$(MAKE) -f CMakeFiles/ch2_t2.dir/build.make CMakeFiles/ch2_t2.dir/ch2_t2.cpp.s
+.PHONY : ch2_t2.cpp.s
 
 # Help Target
 help:
@@ -146,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... undistortImage"
-	@echo "... undistort_image.o"
-	@echo "... undistort_image.i"
-	@echo "... undistort_image.s"
+	@echo "... ch2_t2"
+	@echo "... ch2_t2.o"
+	@echo "... ch2_t2.i"
+	@echo "... ch2_t2.s"
 .PHONY : help
 
 
