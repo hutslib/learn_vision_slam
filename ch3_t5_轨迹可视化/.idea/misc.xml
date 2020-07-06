@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/code">
-    <contentRoot DIR="$PROJECT_DIR$" />
+    <contentRoot DIR="$PROJECT_DIR$/../ch4_t2_双目视差" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
