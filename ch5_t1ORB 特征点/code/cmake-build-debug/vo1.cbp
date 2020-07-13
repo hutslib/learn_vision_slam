@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vo1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;CMake Files\..\..\ch4_t2_双目视差\;CMake Files\..\..\ch4_t2_双目视差\3rdparty\;CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\;CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\build\;CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\build\src\;CMake Files\..\3rdparty\;CMake Files\..\3rdparty\Sophus\;CMake Files\..\3rdparty\Sophus\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="computeORB">
+				<Option output="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug/computeORB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hts/01Vision_slam/ch5_t1ORB 特征点/3rdparty/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hts/01Vision_slam/ch4_t2_双目视差/3rdparty/Pangolin/include"/>
+					<Add directory="/home/hts/01Vision_slam/ch4_t2_双目视差/3rdparty/Pangolin/build/src/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 computeORB"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="computeORB/fast">
+				<Option output="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug/computeORB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hts/01Vision_slam/ch5_t1ORB 特征点/3rdparty/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/hts/01Vision_slam/ch4_t2_双目视差/3rdparty/Pangolin/include"/>
+					<Add directory="/home/hts/01Vision_slam/ch4_t2_双目视差/3rdparty/Pangolin/build/src/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 computeORB/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hts/01Vision_slam/ch5_t1ORB\ 特征点/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/computeORB.cpp">
+			<Option target="computeORB"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../ch4_t2_双目视差/3rdparty/Pangolin/build/src/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../ch4_t2_双目视差/3rdparty/Pangolin/build/src/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../../ch4_t2_双目视差/3rdparty/Pangolin/build/src/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\ch4_t2_双目视差\3rdparty\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/hts/01Vision_slam/ch5_t1ORB 特征点/code/../3rdparty/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\3rdparty\Sophus\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
